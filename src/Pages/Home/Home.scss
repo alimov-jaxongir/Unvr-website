@@ -60,7 +60,7 @@
         }
         .card-title{
             margin-top: 195px;
-            background: linear-gradient(360deg, #232323 -3.23%, rgba(35, 35, 35, 0) 100%);
+            background: linear-gradient(360deg, #232323 -3.23%, rgba(35, 35, 35, .1) 100%);
             width: 625px;
             height: 125px;
             display: flex;
@@ -83,12 +83,16 @@
         .card:hover{
             
             .card-title{
-                margin-top: 160px;
+                margin-top: 170px;
                 opacity: 1;
-                height: 160px;
+                height: 150px;
+                padding-top: 70px;
+                background: linear-gradient(360deg, #232323 -3.23%, rgba(35, 35, 35, 0.2) 100%);
+
             }
             .inside{
                 text-decoration: underline;
+
             }
         }
         .card1:hover{
@@ -130,8 +134,9 @@
     }
     .bott{
         margin-top: 30px;
+
+        }
     }
- }
 
  .Info{
      display: flex;
@@ -170,12 +175,14 @@
     
     }
  }
-
+      
+      ///Media
  .Media{
      padding: 50px 0 70px 0;
- }
+ 
+    }
 
 
 
-
+ 
 
