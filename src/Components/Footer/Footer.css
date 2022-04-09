@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.footer {
+  background: #3479EE;
+}
+
+.footer__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__top-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__top-logo--logo {
+  width: 75px;
+  height: 75px;
+  margin-top: 45px;
+}
+
+.footer__top-logo--title {
+  width: 326px;
+  margin-left: 11px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 31px;
+  color: #FFFFFF;
+  margin-top: 50px;
+}
+
+.footer__top-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__top-form ::-webkit-input-placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.5804px;
+  line-height: 32px;
+  color: #e7dede;
+  z-index: 99;
+}
+
+.footer__top-form :-ms-input-placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.5804px;
+  line-height: 32px;
+  color: #e7dede;
+  z-index: 99;
+}
+
+.footer__top-form ::-ms-input-placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.5804px;
+  line-height: 32px;
+  color: #e7dede;
+  z-index: 99;
+}
+
+.footer__top-form ::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.5804px;
+  line-height: 32px;
+  color: #e7dede;
+  z-index: 99;
+}
+
+.footer__top-form--email {
+  background: white;
+  opacity: 0.3;
+  margin-top: 56px;
+  border-radius: 8px;
+  width: 322px;
+  height: 51px;
+  padding-left: 15px;
+  border-style: none;
+}
+
+.footer__top-form--submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FFFFFF;
+  border-radius: 8px;
+  width: 152px;
+  height: 51px;
+  margin-top: 56px;
+  margin-left: 20px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.5804px;
+  line-height: 32px;
+  color: #3479EE;
+}
+
+.footer__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__nav .footer__navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin-top: 70px;
+}
+
+.footer__nav .footer__navbar li {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-right: 40px;
+}
+
+.footer__nav-number {
+  margin-top: 47px;
+  margin-left: 102px;
+  margin-bottom: 25px;
+}
+
+.footer__nav-number .number {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.footer__nav-number .number .logo {
+  margin-right: 11px;
+}
+
+.footer__nav .line {
+  opacity: 0.1;
+  border: 1px solid #FFFFFF;
+}
+
+.footer__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 35px;
+}
+
+.footer__bottom-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  color: #FFFFFF;
+  opacity: 0.8;
+  width: 370px;
+  margin-bottom: 20px;
+}
+
+.footer__bottom-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 500px;
+}
+
+.footer__bottom .wrapper {
+  background: white;
+  opacity: 0.2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.footer__bottom .icon {
+  opacity: 1;
+  width: 80%;
+  height: 80%;
+  color: white;
+}
+/*# sourceMappingURL=Footer.css.map */

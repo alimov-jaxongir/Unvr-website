@@ -1,0 +1,181 @@
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .News{
+     margin-top: 80px;
+     padding: 45px 0 66px 0;
+
+    
+     &__info{
+         display: flex;
+         justify-content: space-between;
+    .name{
+        display: flex;
+    }
+    .line{
+        opacity: 1;
+        margin: 0;
+        height: 30px;
+        border: 2px solid #3479EE;
+    }
+    .title{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+        margin-left: 15px;
+        
+    }
+    .pass{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #4D77FF;
+        display: flex;
+        align-items: center;
+
+    }
+     }
+ }
+
+ .News__show{
+       margin-top: 40px;
+       
+    &-top,&-bottom{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 30px;
+
+        .card{
+            background-image: url('../../assets/yangiliklar/top1.png');
+            background-repeat: no-repeat;
+        }
+        .card-title{
+            margin-top: 195px;
+            background: linear-gradient(360deg, #232323 -3.23%, rgba(35, 35, 35, 0) 100%);
+            width: 625px;
+            height: 125px;
+            display: flex;
+            padding: 55px 0 0 25px;
+            
+            
+
+         .inside{ 
+            width: 437px;
+            display: inline;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            color: #FFFFFF;
+            box-sizing: border-box;
+         }
+        }
+        .card:hover{
+            
+            .card-title{
+                margin-top: 160px;
+                opacity: 1;
+                height: 160px;
+            }
+            .inside{
+                text-decoration: underline;
+            }
+        }
+        .card1:hover{
+            .title{
+            color: #4D77FF;}
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+            padding: 15px 0 0 15px;
+            margin-top: 0;
+            width: 298px;
+            height: 165px;
+            background: #F9F9F9;
+            border-radius: 0px 0px 10px 10px;
+
+
+            .title{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 26px;
+                color: #232323;
+            }
+            .description{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 20px;
+                color: #232323;
+                opacity: 0.6;
+            }
+        }
+
+
+
+    }
+    .bott{
+        margin-top: 30px;
+    }
+ }
+
+ .Info{
+     display: flex;
+    background: #E5E5E5;
+    padding: 90px 0 120px 0;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    &__box{
+        max-width: 175px;
+       height: 180px; 
+       text-align: center;
+       
+    
+    .number{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 72px;
+        line-height: 108px;
+        color: #232323;
+
+    }
+    .case{font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #232323;
+        display: flex;
+        
+        
+    }
+    
+    }
+ }
+
+ .Media{
+     padding: 50px 0 70px 0;
+ }
+
+
+
+
+

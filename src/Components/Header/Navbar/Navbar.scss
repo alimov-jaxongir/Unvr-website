@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__list{
+
+    ul{
+        display: flex;
+        list-style: none;
+        margin-top: 30px;
+        
+        li{
+            font-family:'Poppins' sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #232323;
+            margin-right: 30px;
+
+
+        }
+    }
+}
+.navbar__form{
+   display: flex;
+
+  
+    
+    ::placeholder{
+        color: black;
+    }
+
+    &-search{
+        display: flex;
+        align-items: center;
+        width: 260px;
+        height: 51px;
+        border-radius: 8px;
+        margin-top: 20px;
+        padding: 0 46px;
+        opacity: 0.4;
+        background-color: #cccbcb;
+        background-image: url(../../../assets/header/search.png);
+        background-position: 17px 17px;
+        background-repeat: no-repeat;
+        border-style: none;
+    }
+    
+    
+    &-submit{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 20px;
+        background: #3479EE;
+        border-radius: 8px;
+        outline: none;
+        margin-top: 20px;
+        margin-left: 28px;
+        border-style: none;
+        span{
+            font-family: 'Poppins' sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #FFFFFF;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: 0px 10px;
+        }
+
+
+    }
+}

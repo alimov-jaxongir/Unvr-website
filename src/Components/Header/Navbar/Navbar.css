@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar__list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.navbar__list ul li {
+  font-family: 'Poppins' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #232323;
+  margin-right: 30px;
+}
+
+.navbar__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar__form ::-webkit-input-placeholder {
+  color: black;
+}
+
+.navbar__form :-ms-input-placeholder {
+  color: black;
+}
+
+.navbar__form ::-ms-input-placeholder {
+  color: black;
+}
+
+.navbar__form ::placeholder {
+  color: black;
+}
+
+.navbar__form-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 260px;
+  height: 51px;
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 0 46px;
+  opacity: 0.4;
+  background-color: #cccbcb;
+  background-image: url(../../../assets/header/search.png);
+  background-position: 17px 17px;
+  background-repeat: no-repeat;
+  border-style: none;
+}
+
+.navbar__form-submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px 20px;
+  background: #3479EE;
+  border-radius: 8px;
+  outline: none;
+  margin-top: 20px;
+  margin-left: 28px;
+  border-style: none;
+}
+
+.navbar__form-submit span {
+  font-family: 'Poppins' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 0px 10px;
+}
+/*# sourceMappingURL=Navbar.css.map */
