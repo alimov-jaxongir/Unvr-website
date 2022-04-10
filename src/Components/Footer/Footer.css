@@ -51,48 +51,54 @@
 .footer__top-form ::-webkit-input-placeholder {
   font-style: normal;
   font-weight: 400;
-  font-size: 18.5804px;
+  font-size: 18.5px;
   line-height: 32px;
-  color: #e7dede;
-  z-index: 99;
+  color: #9EBFF7;
 }
 
 .footer__top-form :-ms-input-placeholder {
   font-style: normal;
   font-weight: 400;
-  font-size: 18.5804px;
+  font-size: 18.5px;
   line-height: 32px;
-  color: #e7dede;
-  z-index: 99;
+  color: #9EBFF7;
 }
 
 .footer__top-form ::-ms-input-placeholder {
   font-style: normal;
   font-weight: 400;
-  font-size: 18.5804px;
+  font-size: 18.5px;
   line-height: 32px;
-  color: #e7dede;
-  z-index: 99;
+  color: #9EBFF7;
 }
 
 .footer__top-form ::placeholder {
   font-style: normal;
   font-weight: 400;
-  font-size: 18.5804px;
+  font-size: 18.5px;
   line-height: 32px;
-  color: #e7dede;
-  z-index: 99;
+  color: #9EBFF7;
 }
 
 .footer__top-form--email {
-  background: white;
-  opacity: 0.3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #5D94F1;
   margin-top: 56px;
   border-radius: 8px;
   width: 322px;
   height: 51px;
   padding-left: 15px;
   border-style: none;
+  color: wheat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.5804px;
+  line-height: 32px;
 }
 
 .footer__top-form--submit {
@@ -195,8 +201,7 @@
 }
 
 .footer__bottom .wrapper {
-  background: white;
-  opacity: 0.2;
+  background: #5D94F1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -214,8 +219,8 @@
 
 .footer__bottom .icon {
   opacity: 1;
-  width: 80%;
-  height: 80%;
+  width: 75%;
+  height: 75%;
   color: white;
 }
 /*# sourceMappingURL=Footer.css.map */

@@ -71,7 +71,7 @@
 }
 
 .News__show-top .card, .News__show-bottom .card {
-  background-image: url("../../assets/yangiliklar/top1.png");
+  background-image: url("../../assets/Yangiliklar/top1.png");
   background-repeat: no-repeat;
 }
 
@@ -199,5 +199,14 @@
 
 .Media {
   padding: 50px 0 70px 0;
+}
+
+.Media__show {
+  padding: 40px 20px 0 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  gap: 30px;
 }
 /*# sourceMappingURL=Home.css.map */

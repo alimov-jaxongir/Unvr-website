@@ -1,10 +1,11 @@
 import React from 'react'
 import './Home.css'
 import {FcNext} from 'react-icons/fc'
-import card1 from '../../assets/yangiliklar/card1.png'
-import card2 from '../../assets/yangiliklar/card2.png'
-import bcard1 from '../../assets/yangiliklar/bcard1.png'
-import bcard2 from '../../assets/yangiliklar/bcard2.png'
+import Card1 from '../../assets/Yangiliklar/card1.png'
+import Card2 from '../../assets/Yangiliklar/card2.png'
+import Bcard1 from '../../assets/Yangiliklar/bcard1.png'
+import Bcard2 from '../../assets/Yangiliklar/bcard2.png'
+import Media1 from '../../assets/Media/media1.png'
 
 const Home=()=> {
   return (
@@ -31,13 +32,13 @@ const Home=()=> {
           
            
               <div className='card1'>
-                <img src={card1} alt="card" />
+                <img src={Card1} alt="card" />
                 <div className='info'>
                 <h4 className='title'>2022-yil Universitetimizda yangi fakultetlar ochilmoqda</h4>
                 <div className="description">Vazirlar Mahkamasining «Oliy ta’lim muassasalari pedagog kadrlarini qayta tayyorlash va ularning...</div>
               </div> </div>
               <div className="card1">
-               <img src={card2} alt="card" />
+               <img src={Card2} alt="card" />
                <div className='info'>
                 <h4 className='title'>2022-yil Universitetimizda yangi fakultetlar ochilmoqda</h4>
                 <div className="description">Vazirlar Mahkamasining «Oliy ta’lim muassasalari pedagog kadrlarini qayta tayyorlash va ularning...</div>
@@ -46,13 +47,13 @@ const Home=()=> {
           </dir>
           <div className='News__show-bottom bott'>
                <div className='card1'>
-                <img src={bcard1} alt="card" />
+                <img src={Bcard1} alt="card" />
                 <div className='info'>
                 <h4 className='title'>2022-yil Universitetimizda yangi fakultetlar ochilmoqda</h4>
                 <div className="description">Vazirlar Mahkamasining «Oliy ta’lim muassasalari pedagog kadrlarini qayta tayyorlash va ularning...</div>
               </div> </div>
               <div className="card1">
-               <img src={bcard2} alt="card" />
+               <img src={Bcard2} alt="card" />
                <div className='info'>
                 <h4 className='title'>2022-yil Universitetimizda yangi fakultetlar ochilmoqda</h4>
                 <div className="description">Vazirlar Mahkamasining «Oliy ta’lim muassasalari pedagog kadrlarini qayta tayyorlash va ularning...</div>
@@ -105,11 +106,18 @@ const Home=()=> {
           </div>
         </div>
         <div className='Media__show'>
-           
+          <img className='mmm' src={Media1} alt="Images" />
+          <img src={Media1} alt="Images" />
+          <img src={Media1} alt="Images" />
+          <img src={Media1} alt="Images" />
+          <img src={Media1} alt="Images" />
+          <img src={Media1} alt="Images" />
 
         </div>
 
       </div>
+
+      
 
     </div>
   )

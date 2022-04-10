@@ -55,7 +55,7 @@
         column-gap: 30px;
 
         .card{
-            background-image: url('../../assets/yangiliklar/top1.png');
+            background-image: url('../../assets/Yangiliklar/top1.png');
             background-repeat: no-repeat;
         }
         .card-title{
@@ -179,10 +179,15 @@
       ///Media
  .Media{
      padding: 50px 0 70px 0;
- 
+
+   &__show{
+       padding:40px 20px 0 20px;
+     display: grid;
+     grid-template-columns: auto auto auto;
+     gap:30px;
     }
 
-
+ }
 
  
 
