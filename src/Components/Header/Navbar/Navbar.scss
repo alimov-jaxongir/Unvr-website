@@ -9,6 +9,7 @@
 .navbar{
     display: flex;
     justify-content: space-between;
+    padding:0 15px
 }
 
 .navbar__list{
@@ -69,6 +70,7 @@
         margin-top: 20px;
         margin-left: 28px;
         border-style: none;
+        
         span{
             font-family: 'Poppins' sans-serif;
             font-style: normal;
@@ -82,6 +84,16 @@
             margin: 0px 10px;
         }
 
+
+
+
+    }
+    &-submit:hover{
+        background:white;
+
+        span{
+            color: green;
+        }
 
     }
 }

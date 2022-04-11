@@ -66,7 +66,7 @@ const Ramz=()=> {
         
     <Router>
       <Routes>
-        <Route  element={<Bayroq/>} />
+        <Route path="/"  element={<Bayroq/>} />
         <Route path="gerb" element={<Gerb/>} />
         <Route path="madhiya" element={<Madhiya/>} />
 

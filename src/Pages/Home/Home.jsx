@@ -6,7 +6,7 @@ import Card2 from '../../assets/Yangiliklar/card2.png'
 import Bcard1 from '../../assets/Yangiliklar/bcard1.png'
 import Bcard2 from '../../assets/Yangiliklar/bcard2.png'
 import Media1 from '../../assets/Media/media1.png'
-
+import Counter from './Counter/Counter'
 const Home=()=> {
   return (
     <div className='Home'>
@@ -68,32 +68,7 @@ const Home=()=> {
         </div>
       </div>
 
-      <div className='Info'>
-        <div className='Info__box'>
-         <div>
-           <h2 className='number'>66+</h2>
-           <p className='case'>Jami o'qituvchilar</p>
-         </div>
-        </div>
-        <div className='Info__box'>
-         <div>
-           <h2 className='number'>14+</h2>
-           <p className='case'>Fan doktorlaari</p>
-         </div>
-        </div>
-        <div className='Info__box'>
-         <div>
-           <h2 className='number'>17+</h2>
-           <p className='case'>Fan nomzodi,PHD</p>
-         </div>
-        </div>
-        <div className='Info__box'>
-         <div>
-           <h2 className='number'>35+</h2>
-           <p className='case'>Ilmiy darajasiz o'qituvchilar</p>
-         </div>
-        </div>
-      </div>
+      <Counter/>
 
       <div className="Media">
       <div className='News__info'>

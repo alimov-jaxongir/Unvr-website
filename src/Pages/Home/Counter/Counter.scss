@@ -1,0 +1,43 @@
+
+*{
+    padding:0;
+    margin:0;
+}
+
+.Info{
+    display: flex;
+   background: #E5E5E5;
+   padding: 90px 0 120px 0;
+   justify-content: space-around;
+   align-items: center;
+   
+   
+   &__box{
+       max-width: 175px;
+      height: 180px; 
+      text-align: center;
+      
+   
+   .number{
+       font-family: 'Poppins';
+       font-style: normal;
+       font-weight: 600;
+       font-size: 72px;
+       line-height: 108px;
+       color: #232323;
+
+   }
+   .case{font-family: 'Poppins';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 24px;
+       line-height: 36px;
+       text-align: center;
+       color: #232323;
+       display: flex;
+       
+       
+   }
+   
+   }
+}

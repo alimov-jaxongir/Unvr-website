@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+.Home {
+  padding: 0 25px;
+}
+
 .News {
   margin-top: 80px;
   padding: 45px 0 66px 0;
@@ -156,53 +160,12 @@
   margin-top: 30px;
 }
 
-.Info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background: #E5E5E5;
-  padding: 90px 0 120px 0;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.Info__box {
-  max-width: 175px;
-  height: 180px;
-  text-align: center;
-}
-
-.Info__box .number {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 72px;
-  line-height: 108px;
-  color: #232323;
-}
-
-.Info__box .case {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
-  text-align: center;
-  color: #232323;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .Media {
   padding: 50px 0 70px 0;
 }
 
 .Media__show {
-  padding: 40px 20px 0 20px;
+  padding-top: 40px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto;

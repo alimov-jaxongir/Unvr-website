@@ -10,9 +10,11 @@
     box-sizing: border-box;
 }
 
+
 .header__top{
     display: flex;
     justify-content: space-between;
+    padding: 0 10px;
 
 }
 .header__top-left{
@@ -26,11 +28,11 @@
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
-    line-height: 31px;
+    line-height: 25px;
     color: #232323;
     width: 330px;
     margin-left: 11px;
-    margin-top: 28px;
+    margin-top: 30px;
 }
 }
 .header__top-right{
@@ -69,6 +71,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
+    margin-left:6px
 }
 .number{
     display: flex;
@@ -83,7 +86,7 @@
 }
 .number-title{
     color: #3479EE; 
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -92,7 +95,7 @@
 
 }
 .line{
-    opacity: 0.1;
+    opacity: 5%;
     border: 1px solid #232323;
     margin-top: 12px;
 }

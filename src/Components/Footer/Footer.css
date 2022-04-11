@@ -7,6 +7,7 @@
 
 .footer {
   background: #3479EE;
+  padding: 0 25px;
 }
 
 .footer__top {
@@ -117,10 +118,10 @@
   height: 51px;
   margin-top: 56px;
   margin-left: 20px;
-  font-family: 'Work Sans';
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
-  font-size: 18.5804px;
+  font-size: 18px;
   line-height: 32px;
   color: #3479EE;
 }
