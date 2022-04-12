@@ -1,14 +1,14 @@
 import React from 'react'
 import './Navbar.css'
-import {NavLink, Link} from 'react-router-dom'
+import { Link} from 'react-router-dom'
 
 const Navbar=()=> {
   return (
     <div className='navbar'>
     <div className='navbar__list'>
       <ul>
-       <li>Yangiliklar</li>
-       <li>Tuzilma</li>
+      <Link to="/yangiliklar" > <li>Yangiliklar</li></Link>
+      <Link to="/tuzilma"> <li>Tuzilma</li></Link>
        <li>Madaniy-ma'rifiy</li>
        <li>Media</li>
        <li>Fakultet haqida</li>

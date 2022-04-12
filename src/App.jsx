@@ -10,23 +10,23 @@ import NotFound from './Pages/Not Found/NotFound';
 import Ramz from './Pages/Ramz/Ramz';
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 function App() {
-  return (
+  return (<Router>
     <div className="App">
       <Header/>
       
-      <Router>
+      
         <Routes>
           <Route path='/' exact element={<Home/>}/>
           <Route path="yangiliklar" element={<Yangiliklar/>}/>
           <Route path="tuzilma" element={<Tuzilma/>}/>
-          <Route path="notfound" element={<NotFound/>}/>
-          <Route path="ramz" element={<Ramz/>}  />
+          <Route path="*" element={<NotFound/>}/>
+          <Route path="ramz/*" element={<Ramz/>}  />
         </Routes>
-      </Router>
+     
       
       <Havola/>
       <Footer/>
-    </div>
+    </div> </Router>
   );
 }
 

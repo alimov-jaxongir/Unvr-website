@@ -81,7 +81,7 @@ const Home=()=> {
           </div>
         </div>
         <div className='Media__show'>
-          <img className='mmm' src={Media1} alt="Images" />
+          <img  src={Media1} alt="Images" />
           <img src={Media1} alt="Images" />
           <img src={Media1} alt="Images" />
           <img src={Media1} alt="Images" />
